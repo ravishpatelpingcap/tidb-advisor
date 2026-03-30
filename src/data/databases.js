@@ -2,7 +2,7 @@ export const databases = [
   {
     id: 'mysql',
     name: 'MySQL',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+    logo: '/logos/mysql.svg',
     type: 'RDBMS',
     category: 'Relational',
     features: {
@@ -28,7 +28,7 @@ export const databases = [
   {
     id: 'postgresql',
     name: 'PostgreSQL',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+    logo: '/logos/postgresql.svg',
     type: 'RDBMS',
     category: 'Relational',
     features: {
@@ -54,7 +54,7 @@ export const databases = [
   {
     id: 'sqlserver',
     name: 'SQL Server',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg',
+    logo: '/logos/sqlserver.svg',
     type: 'RDBMS',
     category: 'Relational',
     features: {
@@ -80,7 +80,7 @@ export const databases = [
   {
     id: 'oracle',
     name: 'Oracle',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg',
+    logo: '/logos/oracle.svg',
     type: 'RDBMS',
     category: 'Relational',
     features: {
@@ -106,7 +106,7 @@ export const databases = [
   {
     id: 'mariadb',
     name: 'MariaDB',
-    logo: 'https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vert_blue-transparent.png',
+    logo: '/logos/mariadb.png',
     type: 'RDBMS',
     category: 'Relational',
     features: {
@@ -132,7 +132,7 @@ export const databases = [
   {
     id: 'db2',
     name: 'IBM Db2',
-    logo: 'https://avatars.githubusercontent.com/u/1459110?s=200',
+    logo: '/logos/db2.png',
     type: 'RDBMS',
     category: 'Relational',
     features: {
@@ -158,7 +158,7 @@ export const databases = [
   {
     id: 'aurora',
     name: 'Amazon Aurora',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
+    logo: '/logos/aws.svg',
     type: 'Cloud RDBMS',
     category: 'Cloud Managed',
     features: {
@@ -184,7 +184,7 @@ export const databases = [
   {
     id: 'alloydb',
     name: 'AlloyDB',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg',
+    logo: '/logos/googlecloud.svg',
     type: 'Cloud RDBMS',
     category: 'Cloud Managed',
     features: {
@@ -210,7 +210,7 @@ export const databases = [
   {
     id: 'azure_sql',
     name: 'Azure SQL',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg',
+    logo: '/logos/azure.svg',
     type: 'Cloud RDBMS',
     category: 'Cloud Managed',
     features: {
@@ -236,7 +236,7 @@ export const databases = [
   {
     id: 'neon',
     name: 'Neon',
-    logo: 'https://avatars.githubusercontent.com/u/77690634?s=200',
+    logo: '/logos/neon.png',
     type: 'Serverless Postgres',
     category: 'Cloud Managed',
     features: {
@@ -262,7 +262,7 @@ export const databases = [
   {
     id: 'supabase',
     name: 'Supabase',
-    logo: 'https://avatars.githubusercontent.com/u/54469796?s=200',
+    logo: '/logos/supabase.png',
     type: 'Managed Postgres',
     category: 'Cloud Managed',
     features: {
@@ -288,7 +288,7 @@ export const databases = [
   {
     id: 'cockroachdb',
     name: 'CockroachDB',
-    logo: 'https://cdn.worldvectorlogo.com/logos/cockroachdb.svg',
+    logo: '/logos/cockroachdb.svg',
     type: 'Distributed SQL',
     category: 'NewSQL',
     features: {
@@ -314,7 +314,7 @@ export const databases = [
   {
     id: 'yugabyte',
     name: 'YugabyteDB',
-    logo: 'https://www.yugabyte.com/wp-content/uploads/2023/04/yugabyte-logo.svg',
+    logo: '/logos/yugabytedb.svg',
     type: 'Distributed SQL',
     category: 'NewSQL',
     features: {
@@ -340,7 +340,7 @@ export const databases = [
   {
     id: 'spanner',
     name: 'Cloud Spanner',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg',
+    logo: '/logos/googlecloud.svg',
     type: 'Distributed SQL',
     category: 'NewSQL',
     features: {
@@ -366,7 +366,7 @@ export const databases = [
   {
     id: 'planetscale',
     name: 'PlanetScale',
-    logo: 'https://avatars.githubusercontent.com/u/35612527?s=200',
+    logo: '/logos/planetscale.png',
     type: 'Managed Vitess',
     category: 'NewSQL',
     features: {
@@ -392,7 +392,7 @@ export const databases = [
   {
     id: 'oceanbase',
     name: 'OceanBase',
-    logo: 'https://avatars.githubusercontent.com/u/82347605?v=4',
+    logo: '/logos/oceanbase.png',
     type: 'Distributed SQL',
     category: 'NewSQL',
     features: {
@@ -418,7 +418,7 @@ export const databases = [
   {
     id: 'vitess',
     name: 'Vitess',
-    logo: 'https://avatars.githubusercontent.com/u/33043890?s=200',
+    logo: '/logos/vitess.png',
     type: 'MySQL Sharding',
     category: 'Middleware',
     features: {
@@ -444,7 +444,7 @@ export const databases = [
   {
     id: 'clickhouse',
     name: 'ClickHouse',
-    logo: 'https://avatars.githubusercontent.com/u/54801242?s=200',
+    logo: '/logos/tidbcloud.png',
     type: 'Columnar OLAP',
     category: 'Analytical',
     features: {
@@ -470,7 +470,7 @@ export const databases = [
   {
     id: 'singlestore',
     name: 'SingleStore',
-    logo: 'https://cdn.simpleicons.org/singlestore',
+    logo: '/logos/singlestore.svg',
     type: 'Distributed HTAP',
     category: 'Analytical',
     features: {
@@ -496,7 +496,7 @@ export const databases = [
   {
     id: 'snowflake',
     name: 'Snowflake',
-    logo: 'https://avatars.githubusercontent.com/u/6453780?s=200',
+    logo: '/logos/citus.png',
     type: 'Cloud Data Warehouse',
     category: 'Analytical',
     features: {
@@ -522,7 +522,7 @@ export const databases = [
   {
     id: 'databricks',
     name: 'Databricks',
-    logo: 'https://avatars.githubusercontent.com/u/4998052?s=200',
+    logo: '/logos/couchbase.png',
     type: 'Lakehouse / Analytics',
     category: 'Analytical',
     features: {
@@ -548,7 +548,7 @@ export const databases = [
   {
     id: 'bigquery',
     name: 'BigQuery',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg',
+    logo: '/logos/googlecloud.svg',
     type: 'Cloud Data Warehouse',
     category: 'Analytical',
     features: {
@@ -574,7 +574,7 @@ export const databases = [
   {
     id: 'redshift',
     name: 'Redshift',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
+    logo: '/logos/aws.svg',
     type: 'Cloud Data Warehouse',
     category: 'Analytical',
     features: {
@@ -600,7 +600,7 @@ export const databases = [
   {
     id: 'mongodb',
     name: 'MongoDB',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+    logo: '/logos/mongodb.svg',
     type: 'Document Store',
     category: 'NoSQL',
     features: {
@@ -626,7 +626,7 @@ export const databases = [
   {
     id: 'dynamodb',
     name: 'DynamoDB',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
+    logo: '/logos/aws.svg',
     type: 'Key-Value / Document',
     category: 'NoSQL',
     features: {
@@ -652,7 +652,7 @@ export const databases = [
   {
     id: 'cosmosdb',
     name: 'Cosmos DB',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg',
+    logo: '/logos/azure.svg',
     type: 'Multi-model',
     category: 'NoSQL',
     features: {
@@ -678,7 +678,7 @@ export const databases = [
   {
     id: 'cassandra',
     name: 'Cassandra',
-    logo: 'https://cdn.simpleicons.org/apachecassandra',
+    logo: '/logos/cassandra.svg',
     type: 'Wide-Column Store',
     category: 'NoSQL',
     features: {
@@ -704,7 +704,7 @@ export const databases = [
   {
     id: 'scylladb',
     name: 'ScyllaDB',
-    logo: 'https://cdn.simpleicons.org/scylladb',
+    logo: '/logos/scylladb.svg',
     type: 'Wide-Column Store',
     category: 'NoSQL',
     features: {
@@ -730,7 +730,7 @@ export const databases = [
   {
     id: 'redis',
     name: 'Redis',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg',
+    logo: '/logos/redis.svg',
     type: 'In-Memory KV',
     category: 'NoSQL',
     features: {
@@ -756,7 +756,7 @@ export const databases = [
   {
     id: 'elasticsearch',
     name: 'Elasticsearch',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg',
+    logo: '/logos/elasticsearch.svg',
     type: 'Search Engine',
     category: 'NoSQL',
     features: {
@@ -782,7 +782,7 @@ export const databases = [
   {
     id: 'neo4j',
     name: 'Neo4j',
-    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg',
+    logo: '/logos/neo4j.svg',
     type: 'Graph Database',
     category: 'NoSQL',
     features: {
@@ -808,7 +808,7 @@ export const databases = [
   {
     id: 'couchbase',
     name: 'Couchbase',
-    logo: 'https://avatars.githubusercontent.com/u/605755?s=200',
+    logo: '/logos/clickhouse.png',
     type: 'Document / KV Store',
     category: 'NoSQL',
     features: {
@@ -834,7 +834,7 @@ export const databases = [
   {
     id: 'hbase',
     name: 'HBase',
-    logo: 'https://cdn.simpleicons.org/apachehbase',
+    logo: '/logos/hbase.svg',
     type: 'Wide-Column Store',
     category: 'NoSQL',
     features: {
@@ -860,7 +860,7 @@ export const databases = [
   {
     id: 'firestore',
     name: 'Firestore',
-    logo: 'https://cdn.simpleicons.org/firebase',
+    logo: '/logos/firestore.svg',
     type: 'Document Store',
     category: 'NoSQL',
     features: {
@@ -886,7 +886,7 @@ export const databases = [
   {
     id: 'influxdb',
     name: 'InfluxDB',
-    logo: 'https://avatars.githubusercontent.com/u/5713248?s=200',
+    logo: '/logos/influxdb.png',
     type: 'Time-Series DB',
     category: 'NoSQL',
     features: {
