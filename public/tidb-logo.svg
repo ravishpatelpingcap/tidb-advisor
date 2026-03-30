@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- TiDB official red 3D cube logo -->
+  <!-- Top face -->
+  <path d="M32 4L58 18V18L32 32L6 18Z" fill="#ED1A3B"/>
+  <!-- Left face -->
+  <path d="M6 18L32 32V60L6 46Z" fill="#C41230"/>
+  <!-- Right face -->
+  <path d="M58 18L32 32V60L58 46Z" fill="#D9152F"/>
+  <!-- White T on top face -->
+  <path d="M20 13h24v4H34v11h-4V17H20z" fill="white" opacity="0.95"/>
+</svg>
