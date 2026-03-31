@@ -1,16 +1,43 @@
-# React + Vite
+# TiAdvisor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Compare, Evaluate & Estimate for TiDB**
 
-Currently, two official plugins are available:
+Live: [tidb-advisor.vercel.app](https://tidb-advisor.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+TiAdvisor is a tool for Account Executives, Solutions Engineers, and prospects to evaluate TiDB against their workload requirements. It provides data-driven recommendations across three modules.
 
-## React Compiler
+## Modules
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Compare Databases
+Side-by-side feature comparison of TiDB against 25+ databases — MySQL, PostgreSQL, Aurora, CockroachDB, Spanner, PlanetScale, Vitess, and more. Covers scalability, HA, security, AI/vector, HTAP, and ecosystem features. Filter by presets (OLTP, HTAP, Cloud-Native, etc.) or view all features with a differences-only toggle.
 
-## Expanding the ESLint configuration
+### Fit Assessment
+A guided questionnaire that evaluates workload fit for TiDB based on pain signals — sharding complexity, write scaling, analytics gaps, and more. Produces:
+- **Fit score** with clear reasoning
+- **Tier recommendation** (Starter, Essential, Dedicated, BYOC, Self-Managed)
+- **Compatibility warnings** and validation checklist
+- **Alternative suggestions** when TiDB isn't the best fit
+- **Persona-driven next steps** (developer, DBA, architect, manager)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Cost Calculator
+Estimate monthly costs across all TiDB Cloud tiers and Self-Managed deployments. Adjust compute, storage, and traffic parameters to model pricing for your workload.
+
+## Tech Stack
+
+- **React** + **Vite**
+- Vanilla CSS (no external dependencies)
+- Self-contained SVG logos (no CDN)
+- Deployed on **Vercel** with auto-deploy from `main`
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
