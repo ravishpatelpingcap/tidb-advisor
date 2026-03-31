@@ -87,6 +87,12 @@ function Home({ onNavigate }) {
 
 function App() {
   const [view, setView] = useState('home');
+  const [pricingContext, setPricingContext] = useState(null);
+
+  const navigateToPricing = (context) => {
+    setPricingContext(context);
+    setView('pricing');
+  };
 
   return (
     <div className="min-h-screen bg-[var(--color-surface)] text-[var(--color-ink)]">
@@ -94,8 +100,8 @@ function App() {
       <main>
         {view === 'home' && <Home onNavigate={setView} />}
         {view === 'compare' && <ComparisonTool />}
-        {view === 'assessment' && <FitAssessment />}
-        {view === 'pricing' && <CostCalculator />}
+        {view === 'assessment' && <FitAssessment onEstimateCosts={navigateToPricing} />}
+        {view === 'pricing' && <CostCalculator initialContext={pricingContext} onContextConsumed={() => setPricingContext(null)} />}
       </main>
       <Footer />
     </div>
